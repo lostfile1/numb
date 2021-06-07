@@ -2,13 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main() {
-  int inm;
+int main(int argc, char *argv[]) {
   int numb;
-  puts("from zero to what");
-  scanf("%d", &inm);
+  int car;
+  car = atoi(argv[1]);
   srand(time(NULL));
-  numb = rand() % inm + 1;
+  numb = rand() % car + 1;
   printf("> %d",numb);
   return 0;
         
