@@ -3,14 +3,13 @@
 #include <time.h>
 
 int main() {
-  int gok;
+  int inm;
   int numb;
   puts("from zero to what");
-  scanf("%d",gok);
-  srand(time(NULL);
-  numb = rand() % gok + 1;
+  scanf("%d", &inm);
+  srand(time(NULL));
+  numb = rand() % inm + 1;
   printf("> %d",numb);
   return 0;
         
 }
-  
